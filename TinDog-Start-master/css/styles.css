@@ -31,7 +31,7 @@ p{
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
@@ -64,19 +64,28 @@ p{
 /* Title image */
 
 .title-image{
-    width: 60%;
+    max-width: 20%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
+
+/* .fixed-title-image{
+    
+} */
 
 /* Feature Section */
 
 #features{
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 .feature-box{
     text-align: center;
-    padding: 5%;
+    padding: 4.5%;
 }
 
 .icon{
@@ -91,7 +100,6 @@ p{
 /* Testimonials section */
 
 #testimonials{
-    padding: 7% 15%;
     text-align: center;
     background-color: #ef8172;
     color: #fff;
@@ -114,4 +122,27 @@ p{
 .press-logo{
     width: 15%;
     margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Pricing section */
+
+.btn-extend{
+    width: 100%;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.head-h3{
+    font-weight: 1000;
 }
